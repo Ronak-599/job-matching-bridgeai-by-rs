@@ -1,0 +1,8 @@
+
+{
+  "name": "BridgeAI - Inclusive Job Matching",
+  "description": "A 2026-forward AI-driven platform designed to reduce hiring bias by translating lived experiences into professional skills for marginalized groups.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

@@ -1,0 +1,19 @@
+sequenceDiagram
+    participant U as User
+    participant ST as Story Translator (Chat)
+    participant PU as Profile Understanding
+    participant BS as Bias‑Scrubbing
+    participant STX as Skill Translation
+    participant JM as Job Matching
+    participant AA as Accessibility Adaptor
+    participant R as Recruiter (Blind View)
+
+    U->>ST: Speak/Type lived story (any language)
+    ST->>PU: Narrative segments
+    PU->>BS: Structured events (What/How/Result)
+    BS->>STX: Identity‑redacted data
+    STX->>ST: Competency profile (Hard/Soft/Impact)
+    STX->>JM: Skills vector
+    JM->>R: Merit‑first candidate list
+    AA->>U: Adaptive UI (contrast, motion, language)
+    R-->>U: Interview/Next‑steps (post‑consent)
